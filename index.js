@@ -20,7 +20,7 @@ app.use('/images',express.static('public/images'))
 // enable cors
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://tubular-bunny-9e107b.netlify.app/login",
     credentials: true,
   })
 );
